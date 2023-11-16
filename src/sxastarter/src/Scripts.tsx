@@ -1,4 +1,4 @@
-import CdpPageView from 'components/CdpPageView';
+import CdpPageView from 'components/SXA/CdpPageView';
 
 const Scripts = (): JSX.Element => {
   return (

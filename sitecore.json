@@ -1,7 +1,11 @@
 {
   "$schema": "./.sitecore/schemas/RootConfigurationFile.schema.json",
   "modules": [
-    "src/*.module.json"
+    "src/*.module.json",
+    "//comment - Only uncomment npm packages when using for local push otherwise build pipelines will fail",
+    "npm:@constellation4sitecore/foundation-labels@1.0.0",
+    "npm:@constellation4sitecore/feature-navigation@1.0.0",
+    "npm:@constellation4sitecore/feature-url-friendly-page-names@1.0.0"
   ],
   "plugins": [
     "Sitecore.DevEx.Extensibility.Serialization@5.2.113",

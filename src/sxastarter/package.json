@@ -4,7 +4,7 @@
   "version": "21.5.0",
   "private": true,
   "config": {
-    "appName": "sxastarter",
+    "appName": "SUGDemo",
     "rootPlaceholders": [
       "jss-main"
     ],
@@ -35,6 +35,15 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@constellation4sitecore/feature-navigation": "^1.0.1-beta.4",
+    "@constellation4sitecore/feature-page-analytics-scripts": "^1.0.0",
+    "@constellation4sitecore/feature-page-tagging": "^1.0.0",
+    "@constellation4sitecore/feature-url-friendly-page-names": "^1.0.0",
+    "@constellation4sitecore/foundation-data": "^1.0.0",
+    "@constellation4sitecore/foundation-enhancers": "^1.0.0",
+    "@constellation4sitecore/foundation-labels": "^1.0.0",
+    "@constellation4sitecore/foundation-layout": "^1.0.0",
+    "@constellation4sitecore/foundation-mapper": "^1.0.0",
     "@sitecore-feaas/clientside": "^0.3.17",
     "@sitecore-jss/sitecore-jss-nextjs": "~21.5.0",
     "@sitecore/engage": "^1.4.1",
